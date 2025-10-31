@@ -12,6 +12,7 @@ This repository provides demos of Vuer and examples for testing the integration 
 
 To install the virtual environment with all dependencies:
 ```bash
+git lfs install --force --skip-smudge # Required because uv breaks with git lfs
 uv sync
 ```
 
