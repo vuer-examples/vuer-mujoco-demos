@@ -8,18 +8,6 @@ This repository provides demos of Vuer and examples for testing the integration 
 
 ## Getting Started
 
-### Cloning the Repository
-
-This repository includes the `vuer-mjcf` submodule. Clone with submodules using:
-```bash
-git clone --recursive https://github.com/vuer-examples/vuer-mujoco-demos.git
-```
-
-If you've already cloned the repository without submodules, initialize them with:
-```bash
-git submodule update --init --recursive
-```
-
 ### Installation
 
 To install the virtual environment with all dependencies:
@@ -28,6 +16,8 @@ uv sync
 ```
 
 This will create a `.venv` directory and install all required packages from `pyproject.toml`.
+
+**Note:** The first `uv sync` may take some time as it downloads vuer-mjcf (~10GB) from GitHub.
 
 ### Running Demos
 

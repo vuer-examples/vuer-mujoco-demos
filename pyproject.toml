@@ -15,4 +15,5 @@ dependencies = [
     "termcolor>=3.2.0",
     "torch>=2.9.0",
     "vuer>=0.0.68",
+    "vuer-mjcf @ git+https://github.com/vuer-ai/vuer-mjcf.git",
 ]
