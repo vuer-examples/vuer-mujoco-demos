@@ -1,0 +1,18 @@
+[project]
+name = "vuer-mujoco-demos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotvar>=0.1.1",
+    "killport>=1.2.0",
+    "ml-logger>=0.10.36",
+    "numpy>=2.3.4",
+    "params-proto>=2.13.2",
+    "pyyaml>=6.0.3",
+    "scipy>=1.16.3",
+    "termcolor>=3.2.0",
+    "torch>=2.9.0",
+    "vuer>=0.0.68",
+]
